@@ -1,0 +1,315 @@
+
+.h1{
+    animation: slideIn 3s ease-out forwards, changeColor 4s ease-out forwards;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.content{
+    /* Set background image */
+    background-image: url('../img/martin-martz-Wa-3T6d0rBo-unsplash.jpg'); /* Path to your image file */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    /* Additional styles */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 650px;
+    /* Add other styles as needed */
+}
+/* Other CSS styles for your content */
+.content {
+    /* Example content styles */
+    text-align: center;
+   
+    color: #fff;
+}
+.navbar{
+    margin-top: 0%;
+}
+
+.h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    color: #ffffff; /* Initial color */
+}
+
+/* Effect for changing color on hover */
+.h1:hover {
+    color: #ff4500; /* New color on hover */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Effect for underline on hover */
+.h1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #333; /* Initial color for underline */
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.h1:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: #ff4500; /* New color for underline on hover */
+}
+
+/* Effect for the paragraph */
+.p5 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: rgb(255, 255, 255)dfd; /* Initial color */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Effect for changing color on hover */
+.p5:hover {
+    color: #ff4500; /* New color on hover */
+}
+.nav-link {
+    color: #ffffff; /* Initial color */
+    transition: background-color 0.3s ease-in-out; /* Transition effect */
+}
+
+/* Effect for changing color on hover */
+ .nav-link:hover {
+    border-bottom :5px solid #ff2424;
+}
+* abt */
+.ab1{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ab2{
+    color: rgb(0, 0, 0);
+}
+.ab{
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    
+ }
+
+/* project */
+
+.pr{
+    height: 400px;
+    background-color: rgb(248, 248, 248);
+ }
+ 
+
+.img2{
+    height: 300px;
+    width: 90%;
+}
+.prod{
+    text-align: justify;
+}
+
+.alink{
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: 600;
+}
+
+.btn{
+    border: 1px solid #ff4500;  
+    
+}
+.btn:hover{
+    
+    background-color: #ff4500;  
+    color: white;
+    
+}
+#btn2{
+    border: 1px solid rgb(248, 248, 255);
+    color: white;
+    text-align: start;
+}
+#btn2:hover{
+background-color: #ff4500;   
+color: white;
+
+}
+.img2{
+    border-radius: 30px;
+}
+.hr1{
+    width: 20px;
+    margin-left: 300px;
+}
+.img2 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img2:hover {
+    transform: scale(0.444); /* Change the scale factor as needed */
+}
+.hd{
+    border-bottom: 3px solid orangered;
+    text-align: center;
+}
+.hd:hover{
+    background-color:#ff4500;
+}
+.abt{
+    width: 100%;
+    height: 800px;
+}
+.ni{
+    margin: 30px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+.m{
+    border: 2px solid black;
+}
+
+.abm{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.ab4{
+    margin-left: 300px;
+    text-align: justify;
+  
+}
+#in{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#tw{
+margin-left: 30px;
+margin-top: 50px;
+}
+#fb:hover{
+    background-color: #ff4500;
+}
+#in:hover{
+    background-color: #ff4500;
+}
+#tw:hover{
+    background-color: #ff4500;
+}
+.h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+    color: #000000; /* Initial color */
+}
+#pro:hover{
+    border-bottom: #ff4500;
+}
+/* Effect for changing color on hover */
+.h3:hover {
+    color: #ff4500; /* New color on hover */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Effect for underline on hover */
+.h3::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ff2424; /* Initial color for underline */
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.h3:hover::after {
+    width: 100%;
+    left: 0;
+    background-color: #ff4500; /* New color for underline on hover */
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar:hover{
+    border-bottom: #fff;
+}
+
+#contact{
+    margin-top: 160px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Social Media Styles */
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+
+}
+
+ul li img:hover {
+    transform: scale(1.2);
+}
